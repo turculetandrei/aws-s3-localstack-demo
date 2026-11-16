@@ -1,0 +1,9 @@
+services:
+  localstack:
+    container_name: localstack-s3
+    image: localstack/localstack:4.14
+    ports:
+      - "127.0.0.1:4566:4566"
+    environment:
+      - SERVICES=s3
+      - DEBUG=0

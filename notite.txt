@@ -1,0 +1,4 @@
+Amazon S3 (Simple Storage Service) este serviciul AWS pentru stocarea de obiecte.
+Datele sunt pastrate ca obiecte in containere numite bucket-uri.
+Fiecare obiect este identificat printr-o cheie (key) unica in bucket.
+In acest proiect, S3 este simulat local cu LocalStack.

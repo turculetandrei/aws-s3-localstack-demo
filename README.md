@@ -52,6 +52,7 @@ Python 3.14.0
 | `requirements.txt` | Python dependency (`boto3`, pinned version) |
 | `notite.txt` | Sample file that is uploaded to S3 |
 | `.gitignore` | Keeps generated files (`.venv/`, downloaded files) out of git |
+| `.gitattributes` | Forces LF line endings so files are identical on every OS |
 | `README.md` | This documentation |
 
 ## 4. Start LocalStack

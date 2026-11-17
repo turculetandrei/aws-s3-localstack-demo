@@ -7,12 +7,10 @@ from pathlib import Path
 import boto3
 from botocore.exceptions import BotoCoreError, ClientError
 
-# LocalStack settings (fake credentials, never real AWS)
 ENDPOINT_URL = "http://localhost:4566"
 BUCKET = "capi-demo-bucket-py"
 KEY = "notite.txt"
 
-# Files live next to this script
 BASE_DIR = Path(__file__).resolve().parent
 ORIGINAL = BASE_DIR / "notite.txt"
 DOWNLOADED = BASE_DIR / "notite_descarcat_py.txt"
